@@ -1,0 +1,13 @@
+{
+  "name": "Bookmarker",
+  "description": "Right click and add current page to a folder ",
+  "version": "1.0",
+  "permissions": ["contextMenus", "bookmarks"],
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "manifest_version": 2
+}
